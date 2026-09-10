@@ -1,0 +1,23 @@
+RPG HUNT v0.5 PLAYER BUILD REPORT
+
+Status: local/offline package prepared
+
+Player mode:
+- User selects routes and tactical doctrine; no direct character movement.
+- Hunter AI autonomously selects weapons, targets, healing, recovery and attack style.
+- Intelligence, discipline, aggression and courage influence decisions.
+- Accuracy, luck, stamina, distance, status and weapon stats affect combat outcomes.
+- Automated combat uses 2.5D-like layered CSS animation with environment art and actor cards.
+- Directives: Cautious / Balanced / Aggressive.
+- Simulation speed: 1x / 2x / 4x.
+- AI recommendation score added to route choice cards.
+
+Validation:
+- game.js: node --check PASS
+- v3data.js: node --check PASS
+- referenced local image assets: 63 checked, 0 missing
+- static DOM ids referenced by game.js: checked, 0 missing
+- package remains fully local; no cloud dependency required.
+
+Browser automation note:
+- Chromium is present in the container but headless rendering did not terminate cleanly because of sandbox/DBus limitations. Static validation and syntax checks passed.
