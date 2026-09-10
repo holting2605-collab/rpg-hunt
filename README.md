@@ -2,7 +2,7 @@
 
 Lokale Spieler-/Simulationsversion. Du steuerst Hunter nicht direkt. Du triffst Weg- und Taktikentscheidungen; die Hunter-KI führt Kämpfe anschließend selbstständig aus.
 
-## Neu
+## Spieler-Modus
 - autonome Hunter-KI mit Intelligenz, Disziplin, Aggression und Mut
 - unterschiedliche Persönlichkeiten: Taktiker, Hitzkopf, Unsicher, Jäger, Vorsichtiger, Glücksritter, Pragmatiker
 - KI-Empfehlungen auf den drei Weg-Entscheidungen
@@ -12,32 +12,30 @@ Lokale Spieler-/Simulationsversion. Du steuerst Hunter nicht direkt. Du triffst 
 - drei Spieler-Vorgaben im Kampf: Vorsichtig, Ausgewogen, Aggressiv
 - 1x/2x/4x Simulationsgeschwindigkeit
 - animierte 2.5D-Kampfkulisse mit Hunter- und Gegnerkarten
-- bestehende Händler-, Loadout-, Perk-, Boss-, Bounty- und Extraction-Systeme bleiben enthalten
+- Händler-, Loadout-, Perk-, Boss-, Bounty- und Extraction-Systeme
 
 ## Start
-Windows: `START_RPG_HUNT.bat`
-Alternativ: `index.html` im Browser öffnen.
-# RPG Hunt v0.4.0 Local
+- Windows: `START_RPG_HUNT.bat` doppelklicken.
+- macOS: `sh START_RPG_HUNT.command` ausführen.
+- Linux: `sh START_RPG_HUNT.sh` ausführen.
+- Alternativ: `index.html` direkt in einem modernen Browser öffnen.
 
-Lokale Offline-Version von RPG Hunt.
+Das Spiel läuft lokal ohne Account, Cloud oder Internetverbindung. Spielstände werden im lokalen Browser-Speicher gespeichert; unter Einstellungen können sie exportiert und importiert werden.
 
-## Start
+Für einen lokalen Webserver mit installiertem Python 3 im Projekt-Hauptverzeichnis:
 
-Windows: `START_RPG_HUNT.bat` doppelklicken.  
-macOS: `START_RPG_HUNT.command` öffnen.  
-Linux: `./START_RPG_HUNT.sh` starten oder `index.html` im Browser öffnen.
+```bash
+python -m http.server 8000 --bind 127.0.0.1
+```
 
-## Neu in v0.4
+Danach `http://127.0.0.1:8000` im Browser öffnen. Spielstände sind an den Browser und die verwendete Adresse gebunden; der direkte Dateistart und der Webserver teilen keinen Spielstand.
 
-- Neuer Hauptmenüpunkt **Händler / Markt & Lager**.
-- Eigenes Händler-Untermenü mit großem Bildhintergrund.
-- Waffen können im Händler per **Vor/Zurück-Karussell** durchgeschaltet werden.
-- Waffen lassen sich kaufen und direkt ausrüsten oder nur ins Lager legen.
-- Extras/Tools/Consumables können gekauft und direkt ausgerüstet oder eingelagert werden.
-- Lager-/Verkaufsmenü: alte Waffen und Extras für 55 % Rückkaufswert verkaufen.
-- Ausrüstung, Händler und Arsenal sind stärker miteinander verknüpft.
-- Zusätzliche eigene Händler-/Workbench-Grafiken.
-- Version bleibt komplett lokal: kein Account, keine Cloud, kein Internet nötig.
+## Händler und Ausrüstung
+
+- Waffen per Vor-/Zurück-Karussell auswählen und direkt ausrüsten oder ins Lager kaufen.
+- Tools und Consumables kaufen, ausrüsten und einlagern.
+- Alte Waffen und Extras für 55 % Rückkaufswert verkaufen.
+- Hunter-Loadouts, gemeinsames Lager und Arsenal verwalten.
 
 ## Spielkern
 
@@ -58,8 +56,16 @@ Linux: `./START_RPG_HUNT.sh` starten oder `index.html` im Browser öffnen.
 
 ## Entwicklung / Tests
 
+Voraussetzung: Node.js ab Version 20. Es werden keine zusätzlichen npm-Pakete benötigt.
+
 ```bash
 npm test
+npm run check:game
+npm run check:data
 ```
 
 Der Smoke-Test prüft JavaScript-Syntax, Kern-Dateien, Waffen-JSON, statische DOM-Verknüpfungen und lokale Asset-Pfade. GitHub Actions führt denselben Test bei Pushes und Pull Requests aus.
+
+Ohne npm lässt sich derselbe Smoke-Test mit `node tests/smoke.mjs` ausführen. Die einzelnen Syntaxprüfungen entsprechen `node --check game.js`, `node --check data.js` und `node --check v3data.js`.
+
+Die lauffähige Projektversion liegt direkt im Repository-Hauptverzeichnis: `index.html`, `styles.css`, `game.js`, `data.js`, `v3data.js`, `weapons.json` und `assets/`. Der Ordner `tests/` enthält die automatisierten Prüfungen.
