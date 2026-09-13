@@ -1,0 +1,19 @@
+{
+  "makeHunter": "d2d05ea2c74b32dc8b03a46144012b06efbcdd7eb92fd2edadfcf45779770176",
+  "canAddPerk": "3edabe21d23162ead3ef27ffb234effc355aab693f24a02a8a3ff9c779cbf662",
+  "hunterMods": "d8e64f0fae6ccd71b7b4edee0e44bce361f6e57e2863ff79a8e09182dac2e7dc",
+  "weaponSlot": "31624bd823ed8d128d97e3bd8f31db044800a6ee3041ffe03e60b5791bbfa848",
+  "attackChance": "daa3dac2643e8d065c0a8dcbe7fcf9fbbae3fb3fa87d490949cbc209fb7f4ba8",
+  "calcDamage": "8a5424e7126fced98b950e2890f986f39a7ca5107524c86c415e8b363e063e6f",
+  "startBossCombat": "9131b22f0f9a03f566e57084619550dec4c4a2a76793818d38783b967c8fc687",
+  "triggerNoise": "7f1556aefa7a0432ac0b9f70b2fbc77fafc0d3267a2ccf7729a787b1e3c7aa01",
+  "aiWeaponScore": "5c7b3a76df3b0a0b391b70b7755c107db668c4d901fbbadcb40f52be63b8f22c",
+  "aiPickWeapon": "6fbf02630ae0d29968667cf56dc86470267291ae5998d6b4571bbcd31d7198d4",
+  "aiTarget": "936403cdbeaf57824313b123de38abd93049d7212eb037e62183c62fb4a89fef",
+  "aiHealingExtra": "24f1b2c50f5d3718eed18bf862c4c652f4f4e7b198279d5697e4d12bf3c5deb4",
+  "aiDecideAction": "cbec8f81a47afc1020bbe122667d0e4d1e71759eff19c09789e89111f623abbc",
+  "preferredDistanceForWeapon": "7213f79467c98108f238f0bb325af2b456ba880aae43c905b816fd780b1af230",
+  "aiManageDistance": "abefbe48a81c22a0b7e0a749dafa84d8cbd6c44e4681c4e0c413a2aa6ac11f39",
+  "aiUseExtra": "e2e0150537d50601c577bc70dfed5b0b35c4ffb8d0a6a38c80660ef5a1f2e06d",
+  "sellValue": "6d3bb4c46b5203a7f2a29f1d24f8b2f03c4b7713e29de31dc51535a55680e989"
+}

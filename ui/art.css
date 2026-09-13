@@ -1,0 +1,33 @@
+/* Local Gothic-Western artwork, with readable text overlays. */
+.menu-tile{background-position:center;background-size:cover}
+.menu-tile:after{background:linear-gradient(0deg,#050909fa 0%,#081012a6 37%,#0a101014 77%)}
+.menu-tile strong,.menu-tile small,.tile-kicker{text-shadow:0 2px 12px #000}
+.v6-menu-banner{position:relative;min-height:220px;display:flex;align-items:flex-end;padding:32px;margin:0 0 26px;background-size:cover;background-position:center 42%;border:1px solid #655536}
+.v6-menu-banner:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#080e11e8,#080e1170 65%,#080e1120)}
+.v6-menu-banner>div{position:relative;max-width:620px}.v6-menu-banner h2{font:clamp(32px,4vw,54px)/1.1 Georgia,serif;margin:10px 0;color:#f2e4c8}.v6-menu-banner p{color:#d2c8b6;margin:0;line-height:1.6}
+.v6-skin-picker{display:flex;align-items:center;gap:16px;padding:17px 0;margin:14px 0;border-top:1px solid #655536;border-bottom:1px solid #655536}
+.v6-skin-picker>div{flex:1;min-width:0}.v6-skin-picker b{display:block;color:#dec698;font:21px Georgia,serif}.v6-skin-picker p{font-size:12px;margin:7px 0;line-height:1.5}.v6-skin-picker small{font-size:10px;color:#b9ad99;display:block;margin:0}.v6-skin-picker .btn{flex:0 0 44px;min-width:44px;height:44px;padding:8px}
+.v6-weapon-display>img{width:100%;height:100%;top:0;left:0;object-fit:contain;object-position:center}.v6-weapon-display{background:#10191b;min-height:350px}
+.v6-thumbnails img{object-fit:contain;background:#10191b}.v6-slot>img{object-fit:contain;background:#10191b}.v6-item>img{object-fit:contain;background:#10191b}
+.v6-team-weapons{display:flex;gap:8px;margin:12px 0}.v6-team-weapons figure{margin:0;flex:1;min-width:0}.v6-team-weapons img{width:100%;height:65px;object-fit:contain;background:#10191b}.v6-team-weapons figcaption{font-size:9px;color:#c9b88e;line-height:1.4}
+.v6-team-slot>div{min-width:0}.v6-team-slot .v6-team-weapons img{max-width:100%}
+@media(max-width:760px){.v6-menu-banner{min-height:185px;padding:24px 20px}.v6-skin-picker{gap:10px}.v6-skin-picker b{font-size:18px}.v6-weapon-display{min-height:260px}}
+
+.v6-slot-art img,.v6-extra-slot img{object-fit:contain;background:#10191b}.v6-extra-slot .v6-skin-picker{display:flex;flex-wrap:wrap;padding:12px}.v6-extra-slot .v6-skin-picker>div{order:-1;flex-basis:100%}.v6-item .v6-skin-picker .btn{width:44px;margin:0}
+
+.v6-menu-banner>*{position:relative}.v6-title.v6-menu-banner{display:block;padding-top:36px}.v6-menu-banner .buyer-chip{background:#10191bdd}.v6-menu-banner h1{color:#f2e4c8}.v6-menu-banner .filter-row{align-self:flex-end}
+
+/* Per-variant artwork and legible trait motifs. */
+.trait-art{display:block;width:84px;height:84px;object-fit:contain;margin:0 0 14px;border:1px solid #75613d;background:#141310}.trait-card:has(.trait-art):before{display:none}.codex-card .trait-art{width:120px;height:120px}.perk-card .trait-art{width:96px;height:96px}.v6-thumbnails img{height:104px}.v6-thumbnails{max-height:230px}.v6-weapon-display>img{padding:12px;box-sizing:border-box}.v6-slot-art img{object-fit:contain!important}.codex-card:has(.trait-art)>div{min-width:0}
+
+.perk-pill .trait-art{width:36px;height:36px;margin:0;flex-shrink:0}
+
+/* Keep complete creature silhouettes and weapon attachments inside their cards. */
+.codex-card>img{height:260px;object-fit:contain;background:#11120f}
+.enemy-card img{height:220px;object-fit:contain;background:#11120f}
+
+.v6-portrait img{object-position:center top}
+.loadout-hunter img,.hunter-portrait img,.detail-portrait img,.v6-hunter-chip img,.v6-switcher img{object-position:center top}
+#screen-recruit .v6-menu-banner{background-position:center top}
+#screen-shop .v6-menu-banner,#screen-shop .shop-hero{background-position:center top}
+

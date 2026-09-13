@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#080a08">
   <meta name="description" content="RPG Hunt – lokale Spieler-Simulation mit Hunter-KI">
-  <title>RPG Hunt</title>
+  <title>RPG Hunt v0.6 – Hub &amp; Arsenal</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="ui/player.css">
+  <link rel="stylesheet" href="ui/art.css">
+  <link rel="icon" href="assets/ui/menu/menu_hunters.png">
 </head>
 <body>
   <div class="fx-grain"></div><div class="fx-vignette"></div>
@@ -14,7 +17,7 @@
 
   <header class="topbar">
     <div class="top-left">
-      <button id="backBtn" class="icon-btn back hidden" aria-label="Zurück">←</button>
+      <button id="backBtn" class="icon-btn back hidden" aria-label="Zurück">← <span>Zurück</span></button>
       <button class="brand" data-nav="hq" aria-label="Zum Hauptquartier">
         <span class="brand-seal">RH</span>
         <span class="brand-copy"><b>RPG HUNT</b><small id="versionLabel">LOCAL BUILD</small></span>
@@ -32,7 +35,7 @@
   <main id="app" class="app-shell">
     <!-- HQ -->
     <section id="screen-hq" class="screen active">
-      <div class="hq-hero" style="--hero:url('assets/v3/environments/sumpf_der_glocken.jpg')">
+      <div class="hq-hero" style="--hero:url('assets/overhaul/environments/marsh.png')">
         <div class="hero-fade"></div>
         <div class="hero-content">
           <p class="eyebrow">DREI WEGE · EIN TARGET · KEINE GARANTIE</p>
@@ -45,12 +48,12 @@
         </div>
       </div>
       <div class="menu-grid">
-        <button class="menu-tile wide" data-nav="mission" style="--art:url('assets/v3/ui/menu_mission.jpg')"><span class="tile-kicker">RUN</span><strong>Mission starten</strong><small>Team prüfen, Risiko kalkulieren, Jagd beginnen.</small></button>
-        <button class="menu-tile" data-nav="hunters" style="--art:url('assets/v3/ui/menu_hunters.jpg')"><span class="tile-kicker">PERSONAL</span><strong>Hunter</strong><small>Rekrutieren, vergleichen und entwickeln.</small></button>
-        <button class="menu-tile" data-nav="gear" style="--art:url('assets/v3/ui/menu_gear.jpg')"><span class="tile-kicker">LOADOUT</span><strong>Ausrüstung</strong><small>Waffen, Extras, Lager und Traits.</small></button>
-        <button class="menu-tile" data-nav="shop" style="--art:url('assets/v4/ui/menu_haendler.png')"><span class="tile-kicker">HÄNDLER</span><strong>Markt & Lager</strong><small>Waffen durchswitchen, kaufen, verkaufen und einlagern.</small></button>
-        <button class="menu-tile" data-nav="codex" style="--art:url('assets/v3/ui/menu_codex.jpg')"><span class="tile-kicker">WISSEN</span><strong>Kodex</strong><small>Gegner, Bosse, Waffen, Lärm und Perks.</small></button>
-        <button class="menu-tile" data-nav="settings" style="--art:url('assets/v3/ui/menu_settings.jpg')"><span class="tile-kicker">SYSTEM</span><strong>Einstellungen</strong><small>Savegame, Sound, Effekte und Reset.</small></button>
+        <button class="menu-tile wide" data-nav="mission" style="--art:url('assets/ui/menu/menu_mission.png')"><span class="tile-kicker">RUN</span><strong>Mission starten</strong><small>Team prüfen, Risiko kalkulieren, Jagd beginnen.</small></button>
+        <button class="menu-tile" data-nav="hunters" style="--art:url('assets/ui/menu/menu_hunters.png')"><span class="tile-kicker">PERSONAL</span><strong>Hunter</strong><small>Rekrutieren, vergleichen und entwickeln.</small></button>
+        <button class="menu-tile" data-nav="gear" style="--art:url('assets/overhaul/menu/gear.png')"><span class="tile-kicker">LOADOUT</span><strong>Ausrüstung</strong><small>Waffen, Extras, Lager und Traits.</small></button>
+        <button class="menu-tile" data-nav="shop" style="--art:url('assets/overhaul/menu/shop.png')"><span class="tile-kicker">HÄNDLER</span><strong>Markt & Lager</strong><small>Waffen durchswitchen, kaufen, verkaufen und einlagern.</small></button>
+        <button class="menu-tile" data-nav="codex" style="--art:url('assets/overhaul/menu/codex.png')"><span class="tile-kicker">WISSEN</span><strong>Kodex</strong><small>Gegner, Bosse, Waffen, Lärm und Perks.</small></button>
+        <button class="menu-tile" data-nav="settings" style="--art:url('assets/ui/menu/menu_settings.png')"><span class="tile-kicker">SYSTEM</span><strong>Einstellungen</strong><small>Savegame, Sound, Effekte und Reset.</small></button>
       </div>
       <div class="dashboard-grid">
         <article class="panel"><header><div><span class="eyebrow">AKTIVES TEAM</span><h2>Für den nächsten Run</h2></div><button class="text-btn" data-nav="mission">Ändern →</button></header><div id="hqTeam" class="team-strip"></div></article>
@@ -61,11 +64,11 @@
 
     <!-- Hunter hub -->
     <section id="screen-hunters" class="screen">
-      <div class="screen-hero compact" style="--hero:url('assets/v3/ui/menu_hunters.jpg')"><div><p class="eyebrow">HUNTERVERWALTUNG</p><h1>Personal & Roster</h1><p>Rekrutiere neue Hunter, stelle das Missionsteam zusammen oder öffne einen Hunter für Stats, Traits und Loadout.</p></div></div>
+      <div class="screen-hero compact" style="--hero:url('assets/ui/menu/menu_hunters.png')"><div><p class="eyebrow">HUNTERVERWALTUNG</p><h1>Personal & Roster</h1><p>Rekrutiere neue Hunter, stelle das Missionsteam zusammen oder öffne einen Hunter für Stats, Traits und Loadout.</p></div></div>
       <div class="submenu-grid">
-        <button class="menu-tile" data-nav="recruit" style="--art:url('assets/v3/ui/menu_recruit.jpg')"><span class="tile-kicker">MARKT</span><strong>Rekrutierung</strong><small>Vier Kandidaten gleichzeitig vergleichen.</small></button>
-        <button class="menu-tile" data-nav="roster" style="--art:url('assets/v3/ui/menu_roster.jpg')"><span class="tile-kicker">ROSTER</span><strong>Hunter-Auswahl</strong><small>Stats, Traits, Level und Teamstatus.</small></button>
-        <button class="menu-tile" data-nav="mission" style="--art:url('assets/v3/ui/menu_missionteam.jpg')"><span class="tile-kicker">TEAM</span><strong>Missionsteam</strong><small>Bis zu drei Hunter für den nächsten Run.</small></button>
+        <button class="menu-tile" data-nav="recruit" style="--art:url('assets/overhaul/menu/recruitment.png')"><span class="tile-kicker">MARKT</span><strong>Rekrutierung</strong><small>Vier Kandidaten gleichzeitig vergleichen.</small></button>
+        <button class="menu-tile" data-nav="roster" style="--art:url('assets/ui/menu/menu_hunters.png')"><span class="tile-kicker">ROSTER</span><strong>Hunter-Auswahl</strong><small>Stats, Traits, Level und Teamstatus.</small></button>
+        <button class="menu-tile" data-nav="mission" style="--art:url('assets/ui/menu/menu_mission.png')"><span class="tile-kicker">TEAM</span><strong>Missionsteam</strong><small>Bis zu drei Hunter für den nächsten Run.</small></button>
       </div>
     </section>
 
@@ -86,18 +89,18 @@
 
     <!-- Gear hub -->
     <section id="screen-gear" class="screen">
-      <div class="screen-hero compact" style="--hero:url('assets/v3/ui/menu_gear.jpg')"><div><p class="eyebrow">AUSRÜSTUNG</p><h1>Loadout-Werkstatt</h1><p>Wähle einen Hunter. Alte Waffen und Extras landen beim Abrüsten im gemeinsamen Lager und können kostenlos wieder verwendet werden.</p></div></div>
+      <div class="screen-hero compact" style="--hero:url('assets/overhaul/menu/gear.png')"><div><p class="eyebrow">AUSRÜSTUNG</p><h1>Loadout-Werkstatt</h1><p>Wähle einen Hunter. Alte Waffen und Extras landen beim Abrüsten im gemeinsamen Lager und können kostenlos wieder verwendet werden.</p></div></div>
       <div id="gearHunterList" class="portrait-picker"></div>
       <article id="stashSummary" class="panel stash-summary"></article>
       <div class="submenu-grid compact-actions">
-        <button class="menu-tile mini" data-nav="shop" style="--art:url('assets/v4/ui/menu_haendler.png')"><span class="tile-kicker">HÄNDLER</span><strong>Zum Markt</strong><small>Kaufen, verkaufen, Lager prüfen.</small></button>
-        <button class="menu-tile mini" data-nav="armory" style="--art:url('assets/v4/ui/weapon_carousel.png')"><span class="tile-kicker">ARSENAL</span><strong>Direkt ins Arsenal</strong><small>Waffen/Extras filtern und ausrüsten.</small></button>
+        <button class="menu-tile mini" data-nav="shop" style="--art:url('assets/overhaul/menu/shop.png')"><span class="tile-kicker">HÄNDLER</span><strong>Zum Markt</strong><small>Kaufen, verkaufen, Lager prüfen.</small></button>
+        <button class="menu-tile mini" data-nav="armory" style="--art:url('assets/overhaul/menu/arsenal.png')"><span class="tile-kicker">ARSENAL</span><strong>Direkt ins Arsenal</strong><small>Waffen/Extras filtern und ausrüsten.</small></button>
       </div>
     </section>
 
     <!-- Shop -->
     <section id="screen-shop" class="screen">
-      <div class="shop-hero" style="--hero:url('assets/v4/ui/menu_haendler.png')">
+      <div class="shop-hero" style="--hero:url('assets/overhaul/menu/shop.png')">
         <div class="shop-hero-copy"><p class="eyebrow">HÄNDLER · WAFFEN · VORRÄTE</p><h1>Blackwater Händler</h1><p>Klicke dich durch die Waffen wie durch ein Menü-Karussell. Kaufe direkt für den aktiven Hunter, lege Gegenstände ins Lager oder verkaufe altes Zeug wieder.</p></div>
         <div id="shopBuyerBox" class="shop-buyer-box"></div>
       </div>
@@ -132,8 +135,8 @@
     <!-- Mission -->
     <section id="screen-mission" class="screen">
       <div id="missionPrep">
-        <div class="screen-hero compact" style="--hero:url('assets/v3/ui/menu_mission.jpg')"><div><p class="eyebrow">MISSION</p><h1>Run vorbereiten</h1><p>Wähle 1–3 Hunter. Der Gesamtwert zeigt, was du bei einem Wipe riskierst.</p></div></div>
-        <div class="prep-grid"><div><div class="section-minihead"><h2>Ausgewähltes Team</h2><button class="text-btn" data-nav="roster">Roster öffnen →</button></div><div id="missionTeam" class="mission-team-grid"></div></div><aside class="panel mission-brief"><span class="eyebrow">EINSATZBRIEF</span><h2>Blackwater Contract</h2><div class="brief-art" style="--art:url('assets/v3/environments/morrow_compound.jpg')"></div><div id="contractDetails" class="brief-list"></div><div class="risk-total"><span>Gesamtwert im Risiko</span><b id="missionValue">0 $</b></div><button id="startRunBtn" class="btn primary xl full">RUN STARTEN</button></aside></div>
+        <div class="screen-hero compact" style="--hero:url('assets/ui/menu/menu_mission.png')"><div><p class="eyebrow">MISSION</p><h1>Run vorbereiten</h1><p>Wähle 1–3 Hunter. Der Gesamtwert zeigt, was du bei einem Wipe riskierst.</p></div></div>
+        <div class="prep-grid"><div><div class="section-minihead"><h2>Ausgewähltes Team</h2><button class="text-btn" data-nav="roster">Roster öffnen →</button></div><div id="missionTeam" class="mission-team-grid"></div></div><aside class="panel mission-brief"><span class="eyebrow">EINSATZBRIEF</span><h2>Blackwater Contract</h2><div class="brief-art" style="--art:url('assets/overhaul/environments/compound.png')"></div><div id="contractDetails" class="brief-list"></div><div class="risk-total"><span>Gesamtwert im Risiko</span><b id="missionValue">0 $</b></div><button id="startRunBtn" class="btn primary xl full">RUN STARTEN</button></aside></div>
       </div>
 
       <div id="runView" class="run-view hidden">
@@ -155,18 +158,18 @@
 
     <!-- Codex -->
     <section id="screen-codex" class="screen">
-      <div class="screen-hero compact" style="--hero:url('assets/v3/ui/menu_codex.jpg')"><div><p class="eyebrow">KODEX</p><h1>Bestiarium & Arsenal</h1><p>Alle wichtigen Systeme im Überblick – inklusive Status-Effekten, Lärmfallen und Waffenwerten.</p></div></div>
+      <div class="screen-hero compact" style="--hero:url('assets/overhaul/menu/codex.png')"><div><p class="eyebrow">KODEX</p><h1>Bestiarium & Arsenal</h1><p>Alle wichtigen Systeme im Überblick – inklusive Status-Effekten, Lärmfallen und Waffenwerten.</p></div></div>
       <div class="codex-tabs"><button class="seg active" data-codex="monsters">Monster</button><button class="seg" data-codex="bosses">Bosse</button><button class="seg" data-codex="weapons">Waffen</button><button class="seg" data-codex="perks">Perks</button><button class="seg" data-codex="noise">Lärm</button><button class="seg" data-codex="extras">Extras</button></div>
       <div id="codexContent" class="codex-grid"></div>
     </section>
 
     <!-- Settings -->
     <section id="screen-settings" class="screen">
-      <div class="screen-hero compact" style="--hero:url('assets/v3/ui/menu_settings.jpg')"><div><p class="eyebrow">SYSTEM</p><h1>Einstellungen</h1><p>RPG Hunt speichert standardmäßig ausschließlich lokal im Browser. Für diese Version ist kein Konto und keine Internetverbindung nötig.</p></div></div>
+      <div class="screen-hero compact" style="--hero:url('assets/ui/menu/menu_settings.png')"><div><p class="eyebrow">SYSTEM</p><h1>Einstellungen</h1><p>RPG Hunt speichert standardmäßig ausschließlich lokal im Browser. Für diese Version ist kein Konto und keine Internetverbindung nötig.</p></div></div>
       <div class="settings-grid">
         <article class="panel"><h2>Spiel</h2><label class="setting"><span><b>Autosave</b><small>Nach Einkäufen, Runs und Ausrüstungsänderungen.</small></span><input id="autosaveToggle" type="checkbox" checked></label><label class="setting"><span><b>Soundeffekte</b><small>Kurze synthetische UI-/Kampfsounds.</small></span><input id="soundToggle" type="checkbox" checked></label><label class="setting"><span><b>Animationen</b><small>Übergänge und Kartenbewegungen.</small></span><input id="motionToggle" type="checkbox" checked></label></article>
         <article class="panel"><h2>Savegame</h2><p class="muted">Der lokale Spielstand bleibt nach dem Schließen erhalten.</p><div class="settings-actions"><button id="exportSaveBtn" class="btn secondary">Save exportieren</button><button id="importSaveBtn" class="btn secondary">Save importieren</button><button id="resetBtn" class="btn danger">Komplett neu starten</button></div><input id="importSaveFile" class="hidden" type="file" accept="application/json"></article>
-        <article class="panel"><h2>Build</h2><div class="build-info"><span>Version</span><b>0.4.0 LOCAL</b><span>Waffen</span><b>150</b><span>Traits</span><b>87</b><span>Extras</span><b>51</b><span>Boss Targets</span><b>6</b></div></article>
+        <article class="panel"><h2>Build</h2><div class="build-info"><span>Version</span><b>0.6 · HUB &amp; ARSENAL</b><span>Waffen</span><b>150</b><span>Traits</span><b>87</b><span>Extras</span><b>51</b><span>Boss Targets</span><b>6</b></div></article>
       </div>
     </section>
   </main>
@@ -177,6 +180,10 @@
 
   <script src="data.js"></script>
   <script src="v3data.js"></script>
+  <script src="ui/art-catalog.js"></script>
+  <script src="ui/illustrations.js"></script>
+  <script src="ui/skins.js"></script>
+  <script src="ui/player.js"></script>
   <script src="game.js"></script>
 </body>
 </html>

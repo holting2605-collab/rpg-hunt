@@ -1,5 +1,5 @@
 window.RPG_HUNT_V3 = {
-  version: '0.5.0-player',
+  version: '0.6.0-player',
   environments: [
     {id:'marsh', name:'Sumpf der Glocken', art:'assets/v3/environments/sumpf_der_glocken.jpg', tags:['Wasser','Krähen','Nebel']},
     {id:'farm', name:'Verlassene Farm', art:'assets/v3/environments/verlassene_farm.jpg', tags:['Pferde','Stall','Loot']},

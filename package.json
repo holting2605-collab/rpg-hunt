@@ -1,12 +1,16 @@
 {
   "name": "rpg-hunt",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "description": "RPG Hunt - local decision-driven extraction RPG prototype",
   "scripts": {
-    "test": "node tests/smoke.mjs",
+    "test": "node tests/smoke.mjs && node tests/rules.mjs && node tests/skins.mjs && node tests/portraits.mjs && node tests/art-overhaul.mjs",
     "check:game": "node --check game.js",
-    "check:data": "node --check data.js && node --check v3data.js"
+    "check:data": "node --check data.js && node --check v3data.js",
+    "test:browser": "node tests/browser.cjs",
+    "test:skins:browser": "node tests/skins-browser.cjs",
+    "test:art:browser": "node tests/art-loading-browser.cjs && node tests/art-features-browser.cjs",
+    "test:save:browser": "node tests/save-session.cjs"
   },
   "engines": {
     "node": ">=20"

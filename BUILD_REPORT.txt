@@ -1,23 +1,73 @@
-RPG HUNT v0.5 PLAYER BUILD REPORT
+RPG HUNT v0.6 - HUB & ARSENAL UPDATE
 
-Status: local/offline package prepared
+FULL ART OVERHAUL - 2026-09-13 - PLAYABLE INTERMEDIATE BUILD
+580/589 planned image files present and visually inspected.
+All 150 standard weapon variants, 87 traits and remaining non-weapon groups present.
+Missing: three skins each for Dolch 96 Precision, Hand Crossbow and Combat Axe.
+One visual correction pending: Terminus Shorty / Bayou lever silhouette.
+Image service usage limit prevents those final ten production/correction jobs.
+Affected previews use their exact standard model; selection and saves are preserved.
+See ART_OVERHAUL_STATUS.md and tools/art-overhaul/open-corrections.json.
+Backup before this phase: dist/RPG-Hunt-v0.6-before-full-art.zip.
 
-Player mode:
-- User selects routes and tactical doctrine; no direct character movement.
-- Hunter AI autonomously selects weapons, targets, healing, recovery and attack style.
-- Intelligence, discipline, aggression and courage influence decisions.
-- Accuracy, luck, stamina, distance, status and weapon stats affect combat outcomes.
-- Automated combat uses 2.5D-like layered CSS animation with environment art and actor cards.
-- Directives: Cautious / Balanced / Aggressive.
-- Simulation speed: 1x / 2x / 4x.
-- AI recommendation score added to route choice cards.
+PASS: smoke (150 weapons, 170 DOM references, 649 literal asset paths).
+PASS: rules (17 protected rule/AI functions), skins, portraits.
+PASS: full isolated Chrome gameplay: recruit, equip, trade, stash, mission,
+autonomous combat, boss, bounty, extraction, rewards, save/reload/import/export.
+PASS: skin browser flow, interrupted save-session restoration, visible attachments
+and Adlerauge; mobile viewport and offline file entry.
+PASS: all 580 available new images decode in Chrome with network offline.
+Strict art completeness test intentionally FAILS while nine files are missing;
+the documented visual correction must also be resolved before final acceptance.
+No balance, prices or AI decisions changed for the artwork overhaul.
+Current packaging command: python tools/build.py (includes ZIP CRC verification).
+This is a playable intermediate ZIP, not a completed full-art release.
 
-Validation:
-- game.js: node --check PASS
-- v3data.js: node --check PASS
-- referenced local image assets: 63 checked, 0 missing
-- static DOM ids referenced by game.js: checked, 0 missing
-- package remains fully local; no cloud dependency required.
+HISTORICAL REPORT BELOW: INITIAL HUB/ARSENAL AND FIRST ARTWORK PASS
+The image counts and grouped-art limitation below describe the earlier build.
 
-Browser automation note:
-- Chromium is present in the container but headless rendering did not terminate cleanly because of sandbox/DBus limitations. Static validation and syntax checks passed.
+Base: v0.5 Player, Git commit d996619472d6e9eee8cb8ed8cf7aa49883f99004.
+Backup: RPG-Hunt-v0.5-backup-d996619.zip was created before editing.
+
+Implementation:
+- Vanilla JavaScript; local ui/player.js and ui/player.css presentation layer.
+- Existing game rules, data and 75 images retained.
+- No framework, service, account or network dependency added.
+- Save key rpgHuntSaveV3 retained, including v0.5 compatibility.
+
+Verification:
+- node tests/smoke.mjs: syntax, 150 weapons, DOM and 71 literal referenced images plus all generated skin paths.
+- node tests/rules.mjs: 17 unchanged rule/AI functions, inventory conservation,
+  funds checks, trait constraints, autonomous healing/recovery/weapon/target
+  decisions and boss scaling for teams of 1, 2 and 3.
+- Real Chrome + Playwright via localhost:8000: recruitment, equipment swaps,
+  purchases, free stash equipment, sale confirmation/cancellation, extras,
+  traits, three-hunter team, route selection, autonomous battle, boss victory,
+  banish, bounty, extraction, rewards, export/import and reload.
+- Combat and pending trait reward resumed after reload.
+- Invalid save import rejected without changing the current state.
+- Smartphone viewport 390x844: tested menus without document overflow.
+- file:// entry loaded with network explicitly offline.
+
+Limits and intentional decisions:
+- Preserve 55% resale and eight flexible extras, rather than rebalance.
+- Preserve v0.5 damage modifiers and autonomous AI behavior.
+- Existing grouped illustrations remain; not 150 unique weapon images.
+- Responsive Chrome checks do not constitute physical Android testing.
+- See CHANGELOG.md for details.
+
+Packaging: python tools/build.py
+
+ARTWORK / SKIN EXTENSION - 2026-09-11
+43 new local PNGs (1536x1024): 11 menu artworks, 8 weapon types x 4 skins.
+All 75 original images retained. 78 weapons and 5 tools supported.
+Skin selection is cosmetic, free, per exact model and serialized in weaponSkins.
+Legacy saves migrate without changing inventory, money or AI.
+PASS: smoke.mjs, rules.mjs, skins.mjs, browser.cjs, skins-browser.cjs, save-session.cjs.
+PASS: all 43 generated images decoded in Chrome; galleries visually inspected.
+PASS: complete autonomous run: Assassin, extraction round 19, loot 2238.
+PASS: skin purchase/stash/equipment/mission/reload/import/export flow.
+No JavaScript or HTTP errors in the successful browser tests.
+Backup before artwork extension: RPG-Hunt-v0.6-before-art.zip.
+Full prompts and file hashes: tools/art-manifest.json.
+Scope and limitations: ARTWORK.md.

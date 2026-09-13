@@ -1,0 +1,17 @@
+const fs=require('node:fs');
+const jobs=require('./jobs.json');
+const corrections=require('./open-corrections.json');
+const ready=jobs.filter(j=>fs.existsSync(j.target)),pending=jobs.filter(j=>!fs.existsSync(j.target));
+const labels={weapon:'Waffen und Skins',extra:'Tools und Consumables',trait:'Traits / Fähigkeiten',hunter:'Hunter-Porträts',monster:'Kreaturen',boss:'Bosse',environment:'Gebiete',menu:'Zusätzliche Menübilder'};
+const lines=['# RPG Hunt v0.6 – Stand der Bildüberarbeitung','',`Stand: ${new Date().toISOString()}`, '',(pending.length||corrections.length)?'**Zwischenstand – Gesamtüberarbeitung noch nicht abgeschlossen.**':'Alle geplanten Bilddateien sind vorhanden; die Prüfberichte dokumentieren die Verifikation.','',`Neue Motive: **${ready.length} von ${jobs.length}**. Offen: **${pending.length}**.`,'','| Bildgruppe | Vorhanden | Geplant |','|---|---:|---:|'];
+for(const [kind,label]of Object.entries(labels))lines.push(`| ${label} | ${ready.filter(j=>j.kind===kind).length} | ${jobs.filter(j=>j.kind===kind).length} |`);
+lines.push('','Die fünf bereits passenden Menübilder für Mission, Hunter, Lager, Statistik und Einstellungen wurden geprüft und weiterverwendet. Alte lokale Assets bleiben als Rückfall erhalten. Keine Spielbalance, Preise oder KI-Regeln wurden für die Bildüberarbeitung geändert.','','## Offene Motive','');
+for(const j of pending)lines.push(`- ${j.name}${j.skin?' · '+j.skin:''} (${j.kind})`);
+if(!pending.length)lines.push('Keine fehlenden Bilddateien.');
+lines.push('','## Offene Bildkorrekturen','');
+for(const c of corrections)lines.push(`- ${c.name} · ${c.skin}: Unterhebel deutlicher darstellen. Bis zur Korrektur zeigt das Spiel das korrekte Standardbild; die Skin-Auswahl bleibt gespeichert.`);
+if(!corrections.length)lines.push('Keine offenen Bildkorrekturen.');
+if(pending.length||corrections.length)lines.push('','Die Bildgenerierung wurde am 13.09.2026 durch das Nutzungslimit des Bilddienstes gestoppt. Fehlende Skinbilder verwenden das genaue Standardmodell mit einem Hinweis in der Vorschau; vorhandene Spielstände und die Skin-Auswahl bleiben erhalten.');
+lines.push('','Sichtprüfung: `tools/art-overhaul/visual-review.json`. Automatischer Bildladetest: `dist/art-overhaul-audit/image-loading.json`. Ein vorhandenes Bild ist nicht automatisch ein abschließend geprüftes Motiv.','');
+fs.writeFileSync('ART_OVERHAUL_STATUS.md',lines.join('\n'));
+console.log(`Report: ${ready.length}/${jobs.length}, ${pending.length} pending`);

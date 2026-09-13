@@ -1,0 +1,346 @@
+[
+  {
+    "id": "menu_mission",
+    "target": "assets/ui/menu/menu_mission.png",
+    "prompt": "Create one premium widescreen landscape game menu artwork for RPG Hunt, Mission starten. Gothic Western 1890s horror, cinematic realistic painterly AAA environment: abandoned wooden chapel in Louisiana swamp, distant lone hunter silhouette on boardwalk, hanging moss, heavy fog, subtle blood traces, smoky amber lantern light against charcoal black and muted olive. Composition central/right focal scene, lower third and left dark uncluttered for readable UI overlay. Fine wood leather brass textures, strong atmospheric depth. No text, letters, logos, UI, borders or collage. Landscape 1536x1024. Save as project artwork.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-933fe0c2-8f19-4074-a144-0dd058ac6737.png",
+    "sha256": "8d6ebba475234d2bc381279772176742e8b29e1ce777a22ab57eb91e01cfade6"
+  },
+  {
+    "id": "menu_hunters",
+    "target": "assets/ui/menu/menu_hunters.png",
+    "prompt": "Use case stylized-concept. Single premium landscape game menu artwork for RPG Hunt: A veteran female bounty hunter and male gunslinger in worn black coats, leather shoulder straps and hats, standing by candlelit quarters, weathered human faces, weapons safely holstered. Cohesive Gothic Western 1890s Louisiana horror, realistic painterly AAA production art. Charcoal black, muted olive, aged brass and warm candle highlights. Damp wood, leather, smoke, mist, subtly ominous. Clear central/right focal subject with dark uncluttered lower third and left area for UI text overlay. Rich material detail, cinematic depth, restrained colors, never cartoon. No readable text, labels, logos, UI, borders or collage. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-f3c9f8c7-3a9f-4bad-b22b-7c310475d1c6.png",
+    "sha256": "e6c1347766222a66b39c02274ee308d8fbb878c7066af9b8da87495b2c58b018"
+  },
+  {
+    "id": "menu_recruitment",
+    "target": "assets/ui/menu/menu_recruitment.png",
+    "prompt": "Use case stylized-concept. Single premium landscape game menu artwork for RPG Hunt: Recruitment desk in a frontier saloon, silhouette of a prospective hunter beyond frosted glass, an unsigned contract with illegible marks, weathered hat, brass coins and flickering lamp. Cohesive Gothic Western 1890s Louisiana horror, realistic painterly AAA production art. Charcoal black, muted olive, aged brass and warm candle highlights. Damp wood, leather, smoke, mist, subtly ominous. Clear central/right focal subject with dark uncluttered lower third and left area for UI text overlay. Rich material detail, cinematic depth, restrained colors, never cartoon. No readable text, labels, logos, UI, borders or collage. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-89567aab-f9fc-45ba-99c6-01c32a168c0a.png",
+    "sha256": "f647083c37147aaf701d95bb6adedf0fa414e0103db9286fbe6390fcd80e13eb"
+  },
+  {
+    "id": "menu_gear",
+    "target": "assets/ui/menu/menu_gear.png",
+    "prompt": "Use case stylized-concept. Single premium landscape game menu artwork for RPG Hunt: Hunter's preparation workbench with carefully arranged leather holster, rifle, knife, ammunition pouch, bandages and brass lantern; detailed physical equipment. Cohesive Gothic Western 1890s Louisiana horror, realistic painterly AAA production art. Charcoal black, muted olive, aged brass and warm candle highlights. Damp wood, leather, smoke, mist, subtly ominous. Clear central/right focal subject with dark uncluttered lower third and left area for UI text overlay. Rich material detail, cinematic depth, restrained colors, never cartoon. No readable text, labels, logos, UI, borders or collage. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-d035e77a-407a-4024-8f5f-012097400198.png",
+    "sha256": "a8efe227718e74f3f17b5607e85886f6eeb39572730e9ae73084bbee63dab8b3"
+  },
+  {
+    "id": "menu_shop",
+    "target": "assets/ui/menu/menu_shop.png",
+    "prompt": "Use case stylized-concept. Single premium landscape game menu artwork for RPG Hunt: Mysterious frontier merchant behind a wooden counter with brass scales, ammunition boxes and shelves, warm amber lanterns in a smoky shadowy trading post. Cohesive Gothic Western 1890s Louisiana horror, realistic painterly AAA production art. Charcoal black, muted olive, aged brass and warm candle highlights. Damp wood, leather, smoke, mist, subtly ominous. Clear central/right focal subject with dark uncluttered lower third and left area for UI text overlay. Rich material detail, cinematic depth, restrained colors, never cartoon. No readable text, labels, logos, UI, borders or collage. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-2e74d831-f04a-4cb4-bd37-9d4066c9df61.png",
+    "sha256": "61fb2b7b8b3c6a1c678250d9055f6b98dc7d253c38a103e232456ffb3210880c"
+  },
+  {
+    "id": "menu_arsenal",
+    "target": "assets/ui/menu/menu_arsenal.png",
+    "prompt": "Use case stylized-concept. Single premium landscape game menu artwork for RPG Hunt: Grand atmospheric gun room with dark wood racks of period rifles, revolvers on foreground velvet bench, cold black steel and brass fittings under slanted window light. Cohesive Gothic Western 1890s Louisiana horror, realistic painterly AAA production art. Charcoal black, muted olive, aged brass and warm candle highlights. Damp wood, leather, smoke, mist, subtly ominous. Clear central/right focal subject with dark uncluttered lower third and left area for UI text overlay. Rich material detail, cinematic depth, restrained colors, never cartoon. No readable text, labels, logos, UI, borders or collage. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-2675c4f3-c346-4e56-9c0d-1a3297325f5e.png",
+    "sha256": "4a1c901ee4b66882099faeca3efd7f9a093b489e2376be9d7e25981f2660ab33"
+  },
+  {
+    "id": "menu_stash",
+    "target": "assets/ui/menu/menu_stash.png",
+    "prompt": "Use case stylized-concept. Single premium landscape game menu artwork for RPG Hunt: Secured storage cellar with heavy wooden supply crates, iron-bound chest, neatly rolled leather gear and ammunition tins, candlelit dust and heavy padlock. Cohesive Gothic Western 1890s Louisiana horror, realistic painterly AAA production art. Charcoal black, muted olive, aged brass and warm candle highlights. Damp wood, leather, smoke, mist, subtly ominous. Clear central/right focal subject with dark uncluttered lower third and left area for UI text overlay. Rich material detail, cinematic depth, restrained colors, never cartoon. No readable text, labels, logos, UI, borders or collage. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-593d2286-c918-43d1-89a0-ab8af247c398.png",
+    "sha256": "1c972edf4e4e31d4690aac7dff103ee9758586dab3cba17b77ad8fe683bf5a35"
+  },
+  {
+    "id": "menu_traits",
+    "target": "assets/ui/menu/menu_traits.png",
+    "prompt": "Use case stylized-concept. Single premium landscape game menu artwork for RPG Hunt: Occult hunter's ritual study, carved bone talismans, a leather-bound journal with illegible markings, blood-stained glove, beeswax candles and smoke. Cohesive Gothic Western 1890s Louisiana horror, realistic painterly AAA production art. Charcoal black, muted olive, aged brass and warm candle highlights. Damp wood, leather, smoke, mist, subtly ominous. Clear central/right focal subject with dark uncluttered lower third and left area for UI text overlay. Rich material detail, cinematic depth, restrained colors, never cartoon. No readable text, labels, logos, UI, borders or collage. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-d5163147-3527-4ea6-b7c8-4d0e5a4f472b.png",
+    "sha256": "4c4c72366b208b929b942dfc2468a25d893c6c1a34b9284049057885a5c71b90"
+  },
+  {
+    "id": "menu_codex",
+    "target": "assets/ui/menu/menu_codex.png",
+    "prompt": "Use case stylized-concept. Single premium landscape game menu artwork for RPG Hunt: Open aged illustrated bestiary with charcoal sketches of swamp monsters, magnifying lens, raven feather, anatomical notes rendered as illegible marks, candlelit library. Cohesive Gothic Western 1890s Louisiana horror, realistic painterly AAA production art. Charcoal black, muted olive, aged brass and warm candle highlights. Damp wood, leather, smoke, mist, subtly ominous. Clear central/right focal subject with dark uncluttered lower third and left area for UI text overlay. Rich material detail, cinematic depth, restrained colors, never cartoon. No readable text, labels, logos, UI, borders or collage. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-95aad7b4-e32f-4569-9303-3d442ff1e92b.png",
+    "sha256": "cd4c9de400b180eee99346a7accc073a1adc94d3a0effa9248848cc9e83b8e84"
+  },
+  {
+    "id": "menu_stats",
+    "target": "assets/ui/menu/menu_stats.png",
+    "prompt": "Use case stylized-concept. Single premium landscape game menu artwork for RPG Hunt: Bounty hunter's record desk, leather journal with abstract illegible tally marks, stacks of coins, old compass and collected bounty tokens, dim candlelight. Cohesive Gothic Western 1890s Louisiana horror, realistic painterly AAA production art. Charcoal black, muted olive, aged brass and warm candle highlights. Damp wood, leather, smoke, mist, subtly ominous. Clear central/right focal subject with dark uncluttered lower third and left area for UI text overlay. Rich material detail, cinematic depth, restrained colors, never cartoon. No readable text, labels, logos, UI, borders or collage. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-771686f0-ae2e-49c0-bc61-a50c74b17825.png",
+    "sha256": "2fa10f345402ee467d46a72d36f14fcacfd9d57286f7cc28918a784e44d44acb"
+  },
+  {
+    "id": "menu_settings",
+    "target": "assets/ui/menu/menu_settings.png",
+    "prompt": "Use case stylized-concept. Single premium landscape game menu artwork for RPG Hunt: 1890s precision instrument desk, brass clockwork and tuning mechanisms, oil lamp, leather-bound save journal, intricate gears, calm shadowy atmosphere. Cohesive Gothic Western 1890s Louisiana horror, realistic painterly AAA production art. Charcoal black, muted olive, aged brass and warm candle highlights. Damp wood, leather, smoke, mist, subtly ominous. Clear central/right focal subject with dark uncluttered lower third and left area for UI text overlay. Rich material detail, cinematic depth, restrained colors, never cartoon. No readable text, labels, logos, UI, borders or collage. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-8abfb94e-4fe0-4564-b365-aeae7953f87e.png",
+    "sha256": "618f3d521ce16588f7ee324c023a9e6c18747cebf16884aaa7f5fcb20d9d61c9"
+  },
+  {
+    "id": "revolver_standard_darkwood",
+    "target": "assets/weapons/skins/revolver_standard_darkwood.png",
+    "prompt": "Single premium game inventory artwork of 1890s six shot frontier revolver, long barrel and curved grip. STANDARD finish, worn dark walnut wood, plain dark steel, realistic subtle field wear. Gothic Western 1890s. Entire ONE weapon in horizontal side profile pointing right (crossbow three quarter), generous 12 percent empty margin ALL sides. Centered, isolated uniform near-black charcoal #10191b background. Realistic finely detailed physically plausible construction, crisp silhouette, warm rim lighting and cool fill, tasteful understated craftsmanship. No text, lettering, logo, frame, collage, hands, props or scenery. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-1cd7841c-8f98-4a86-95d9-3d103082810b.png",
+    "sha256": "224ba4f6df365a655813207c4e487343c2e1225d1556eadb5867991b347c4180"
+  },
+  {
+    "id": "pistol_standard_darkwood",
+    "target": "assets/weapons/skins/pistol_standard_darkwood.png",
+    "prompt": "Single premium game inventory artwork of 1890s broomhandle self-loading pistol with box magazine ahead of trigger. STANDARD finish, worn dark walnut wood, plain dark steel, realistic subtle field wear. Gothic Western 1890s. Entire ONE weapon in horizontal side profile pointing right (crossbow three quarter), generous 12 percent empty margin ALL sides. Centered, isolated uniform near-black charcoal #10191b background. Realistic finely detailed physically plausible construction, crisp silhouette, warm rim lighting and cool fill, tasteful understated craftsmanship. No text, lettering, logo, frame, collage, hands, props or scenery. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-cb2cf5fd-0967-4533-b3d0-a70365848e10.png",
+    "sha256": "083b22c0db8b36dac638c61fc62723ab731b27be3d131f892094182f1bbf6d17"
+  },
+  {
+    "id": "rifle_standard_darkwood",
+    "target": "assets/weapons/skins/rifle_standard_darkwood.png",
+    "prompt": "Single premium game inventory artwork of 1890s lever action repeating rifle, full length barrel and lever loop below trigger. STANDARD finish, worn dark walnut wood, plain dark steel, realistic subtle field wear. Gothic Western 1890s. Entire ONE weapon in horizontal side profile pointing right (crossbow three quarter), generous 12 percent empty margin ALL sides. Centered, isolated uniform near-black charcoal #10191b background. Realistic finely detailed physically plausible construction, crisp silhouette, warm rim lighting and cool fill, tasteful understated craftsmanship. No text, lettering, logo, frame, collage, hands, props or scenery. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-f345807f-5a36-4560-bd1d-c47d5034973e.png",
+    "sha256": "4eda4e7a8111163a79b023def894b703c3eb59096f281be089b9499a1e9e6671"
+  },
+  {
+    "id": "shotgun_standard_darkwood",
+    "target": "assets/weapons/skins/shotgun_standard_darkwood.png",
+    "prompt": "Single premium game inventory artwork of 1890s double barrel break action hunting shotgun. STANDARD finish, worn dark walnut wood, plain dark steel, realistic subtle field wear. Gothic Western 1890s. Entire ONE weapon in horizontal side profile pointing right (crossbow three quarter), generous 12 percent empty margin ALL sides. Centered, isolated uniform near-black charcoal #10191b background. Realistic finely detailed physically plausible construction, crisp silhouette, warm rim lighting and cool fill, tasteful understated craftsmanship. No text, lettering, logo, frame, collage, hands, props or scenery. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-7687416d-1569-43bc-9c8b-f9a5ebe876fc.png",
+    "sha256": "3956f83dab5ed5bc21932eb26c88ffb6a950c5deea657b84b1b98709da17f3de"
+  },
+  {
+    "id": "sniper_standard_darkwood",
+    "target": "assets/weapons/skins/sniper_standard_darkwood.png",
+    "prompt": "Single premium game inventory artwork of 1890s full length bolt action rifle with long narrow period telescopic scope. STANDARD finish, worn dark walnut wood, plain dark steel, realistic subtle field wear. Gothic Western 1890s. Entire ONE weapon in horizontal side profile pointing right (crossbow three quarter), generous 12 percent empty margin ALL sides. Centered, isolated uniform near-black charcoal #10191b background. Realistic finely detailed physically plausible construction, crisp silhouette, warm rim lighting and cool fill, tasteful understated craftsmanship. No text, lettering, logo, frame, collage, hands, props or scenery. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-ea45a3dd-19c4-4c94-b0f6-f11e0734d203.png",
+    "sha256": "449701b53a414b4f709496388f7ac0447ab774060ddf0d131bc3979731e255e1"
+  },
+  {
+    "id": "crossbow_standard_darkwood",
+    "target": "assets/weapons/skins/crossbow_standard_darkwood.png",
+    "prompt": "Single premium game inventory artwork of compact wooden hunting crossbow, steel limbs and taut string, three quarter profile. STANDARD finish, worn dark walnut wood, plain dark steel, realistic subtle field wear. Gothic Western 1890s. Entire ONE weapon in horizontal side profile pointing right (crossbow three quarter), generous 12 percent empty margin ALL sides. Centered, isolated uniform near-black charcoal #10191b background. Realistic finely detailed physically plausible construction, crisp silhouette, warm rim lighting and cool fill, tasteful understated craftsmanship. No text, lettering, logo, frame, collage, hands, props or scenery. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-42030496-0470-49f6-8ef9-f4007b3e0cb9.png",
+    "sha256": "512c1f0d8db2476b17057b9b0234cfe1913637b4edbd63b0f497d839f319a1a5"
+  },
+  {
+    "id": "knife_standard_darkwood",
+    "target": "assets/weapons/skins/knife_standard_darkwood.png",
+    "prompt": "Single premium game inventory artwork of single sturdy bowie knife, broad steel blade, simple crossguard. STANDARD finish, worn dark walnut wood, plain dark steel, realistic subtle field wear. Gothic Western 1890s. Entire ONE weapon in horizontal side profile pointing right (crossbow three quarter), generous 12 percent empty margin ALL sides. Centered, isolated uniform near-black charcoal #10191b background. Realistic finely detailed physically plausible construction, crisp silhouette, warm rim lighting and cool fill, tasteful understated craftsmanship. No text, lettering, logo, frame, collage, hands, props or scenery. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-a110e3ad-0d07-489a-826f-6d9f14cda02c.png",
+    "sha256": "e8b9dacf98f608dba2c4c26784b619a3e34677cb8795ee07e39faf6f663a2373"
+  },
+  {
+    "id": "axe_standard_darkwood",
+    "target": "assets/weapons/skins/axe_standard_darkwood.png",
+    "prompt": "Single premium game inventory artwork of single small throwing hatchet, steel axe head and short wooden haft. STANDARD finish, worn dark walnut wood, plain dark steel, realistic subtle field wear. Gothic Western 1890s. Entire ONE weapon in horizontal side profile pointing right (crossbow three quarter), generous 12 percent empty margin ALL sides. Centered, isolated uniform near-black charcoal #10191b background. Realistic finely detailed physically plausible construction, crisp silhouette, warm rim lighting and cool fill, tasteful understated craftsmanship. No text, lettering, logo, frame, collage, hands, props or scenery. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-0d59c58a-390e-446f-ba2b-10a02c41f145.png",
+    "sha256": "65834904506c7f6120ccf41ed6951d8df6a8612c20455fc1b382f942394906a6"
+  },
+  {
+    "id": "revolver_bayou_wrap",
+    "target": "assets/weapons/skins/revolver_bayou_wrap.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s six shot frontier revolver with long barrel and curved grip. BAYOU HUNTER finish: weathered dark walnut, practical dark brown leather wrapping, restrained etched steel, faint oxidation and field wear. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-20c6903c-a591-4636-9ad1-2e69325b216b.png",
+    "sha256": "90c3dd6138fda47ae74db8566a22a609f41704f3be69cc9e4d47d4cd12942091"
+  },
+  {
+    "id": "revolver_elite_brass",
+    "target": "assets/weapons/skins/revolver_elite_brass.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s six shot frontier revolver with long barrel and curved grip. ELITE finish: polished gunmetal steel, tasteful brass inlays, immaculate dark ebony grip or stock, exquisite realistic craftsmanship. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-c6e4514a-787a-4a01-9f25-5a50ad87cef2.png",
+    "sha256": "8df8aaf86bbd10cd565acc4114a6edc5e7438aaf2b10b9dbdc5a69356b78a63f"
+  },
+  {
+    "id": "revolver_bone_ritual",
+    "target": "assets/weapons/skins/revolver_bone_ritual.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s six shot frontier revolver with long barrel and curved grip. MASTER / LEGENDARY finish: fine gold engraved occult filigree, carved antique bone grip accents, blackened steel, restrained cursed ritual markings, expensive understated elegance, no glowing parts. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-538f0b44-466b-40a1-8fda-150b13f91253.png",
+    "sha256": "b06e882c284f3cc98bda202c4d8216497ca9a89a3634f13c0d451550bd3b576b"
+  },
+  {
+    "id": "pistol_bayou_wrap",
+    "target": "assets/weapons/skins/pistol_bayou_wrap.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s early self-loading broomhandle pistol with box magazine ahead of trigger. BAYOU HUNTER finish: weathered dark walnut, practical dark brown leather wrapping, restrained etched steel, faint oxidation and field wear. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-faac7cc4-a4a8-42db-96be-fe02f0212cc8.png",
+    "sha256": "abc151e131dcc8d012ee05b5512644be8ad2cd7f5766a40e583cf3bbd7eab8cf"
+  },
+  {
+    "id": "pistol_elite_brass",
+    "target": "assets/weapons/skins/pistol_elite_brass.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s early self-loading broomhandle pistol with box magazine ahead of trigger. ELITE finish: polished gunmetal steel, tasteful brass inlays, immaculate dark ebony grip or stock, exquisite realistic craftsmanship. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-e82fd05b-803c-4659-b75d-f4bde124d11e.png",
+    "sha256": "cec203cbd90c9fd7a5cec85255a2faf3f751241853a17a0424cf6d7231305902"
+  },
+  {
+    "id": "pistol_bone_ritual",
+    "target": "assets/weapons/skins/pistol_bone_ritual.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s early self-loading broomhandle pistol with box magazine ahead of trigger. MASTER / LEGENDARY finish: fine gold engraved occult filigree, carved antique bone grip accents, blackened steel, restrained cursed ritual markings, expensive understated elegance, no glowing parts. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-9131476c-9407-4ac3-a907-6fb57e411abe.png",
+    "sha256": "ad66186cd0655711c9af2b0e2ed37b76863440a99c6784ee2bf78ee3aac62a8e"
+  },
+  {
+    "id": "rifle_bayou_wrap",
+    "target": "assets/weapons/skins/rifle_bayou_wrap.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s lever action repeating rifle, full length slim barrel, lever loop under trigger. BAYOU HUNTER finish: weathered dark walnut, practical dark brown leather wrapping, restrained etched steel, faint oxidation and field wear. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-085fa990-63f8-4aa7-a7a2-d8ef02dd7952.png",
+    "sha256": "ac82928b0168f9bae679c4b6dfc90eafa840be4360055ad912e734bba3ed76e5"
+  },
+  {
+    "id": "rifle_elite_brass",
+    "target": "assets/weapons/skins/rifle_elite_brass.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s lever action repeating rifle, full length slim barrel, lever loop under trigger. ELITE finish: polished gunmetal steel, tasteful brass inlays, immaculate dark ebony grip or stock, exquisite realistic craftsmanship. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-68c8977f-5d75-4851-a35b-9a311b31bc65.png",
+    "sha256": "eeaf84d9dd7d1e73b1e9bdaca639e57a797d499bde0fba2cb1c02d0a6156c60b"
+  },
+  {
+    "id": "rifle_bone_ritual",
+    "target": "assets/weapons/skins/rifle_bone_ritual.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s lever action repeating rifle, full length slim barrel, lever loop under trigger. MASTER / LEGENDARY finish: fine gold engraved occult filigree, carved antique bone grip accents, blackened steel, restrained cursed ritual markings, expensive understated elegance, no glowing parts. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-adfd5c32-779f-4fd9-b4f7-18344f62fc60.png",
+    "sha256": "e8ed0641b68ddaa73623ecfd64e456793c05d9470b11d197a7b5385e411c0a2f"
+  },
+  {
+    "id": "shotgun_bayou_wrap",
+    "target": "assets/weapons/skins/shotgun_bayou_wrap.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s double barrel break action hunting shotgun. BAYOU HUNTER finish: weathered dark walnut, practical dark brown leather wrapping, restrained etched steel, faint oxidation and field wear. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-ce50048f-01e5-4632-a96a-e7a599af877f.png",
+    "sha256": "344f965e5aa3472c5b36d0a1a0f072d86f1e6885d69e00f853f517c72bc57fef"
+  },
+  {
+    "id": "shotgun_elite_brass",
+    "target": "assets/weapons/skins/shotgun_elite_brass.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s double barrel break action hunting shotgun. ELITE finish: polished gunmetal steel, tasteful brass inlays, immaculate dark ebony grip or stock, exquisite realistic craftsmanship. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-066868f6-3f87-43c1-a7cb-37ba477024dd.png",
+    "sha256": "62b4c0220d7340cd8d96f6356ebc5b54c22230664a06c0b087dba64259c8f61c"
+  },
+  {
+    "id": "shotgun_bone_ritual",
+    "target": "assets/weapons/skins/shotgun_bone_ritual.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s double barrel break action hunting shotgun. MASTER / LEGENDARY finish: fine gold engraved occult filigree, carved antique bone grip accents, blackened steel, restrained cursed ritual markings, expensive understated elegance, no glowing parts. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-13e344e6-833e-4205-aeea-78bc81d44972.png",
+    "sha256": "f580106de51f08e7a3a79a58ac448eb2d2ce9dd6a6f57804bd86543974ea2ef5"
+  },
+  {
+    "id": "sniper_bayou_wrap",
+    "target": "assets/weapons/skins/sniper_bayou_wrap.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s full length bolt action rifle with long narrow period telescopic scope. BAYOU HUNTER finish: weathered dark walnut, practical dark brown leather wrapping, restrained etched steel, faint oxidation and field wear. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-9a6aa6c1-3b09-4a07-9f40-b19bc257888c.png",
+    "sha256": "a3fd7711bcf527534ecb784c2e67aa99ea451a7fe92697bf10d618f81f5a6226"
+  },
+  {
+    "id": "sniper_elite_brass",
+    "target": "assets/weapons/skins/sniper_elite_brass.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s full length bolt action rifle with long narrow period telescopic scope. ELITE finish: polished gunmetal steel, tasteful brass inlays, immaculate dark ebony grip or stock, exquisite realistic craftsmanship. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-bc41ab1f-adae-4191-9302-ed2779cac122.png",
+    "sha256": "13da40207396b5c5c57f242b6ffae69975c2576f045f4c78f3b36c1fa5b74ae3"
+  },
+  {
+    "id": "sniper_bone_ritual",
+    "target": "assets/weapons/skins/sniper_bone_ritual.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, 1890s full length bolt action rifle with long narrow period telescopic scope. MASTER / LEGENDARY finish: fine gold engraved occult filigree, carved antique bone grip accents, blackened steel, restrained cursed ritual markings, expensive understated elegance, no glowing parts. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-30dfca21-b5e2-4e38-9bef-31344b976b23.png",
+    "sha256": "9a360e4835252d89dd453f2f4c3ef95532627cd7220786f1ab08148bcf8dddea"
+  },
+  {
+    "id": "crossbow_bayou_wrap",
+    "target": "assets/weapons/skins/crossbow_bayou_wrap.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, compact wooden hunting crossbow with steel limbs and taut string, three quarter profile. BAYOU HUNTER finish: weathered dark walnut, practical dark brown leather wrapping, restrained etched steel, faint oxidation and field wear. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-b132573b-40e9-4805-9239-7f0543e88fea.png",
+    "sha256": "67580a38cd533424085c3cb40e5daa0fb21ef9c0e601ec658da162ab3b2f485d"
+  },
+  {
+    "id": "crossbow_elite_brass",
+    "target": "assets/weapons/skins/crossbow_elite_brass.png",
+    "prompt": "Use case product-mockup. Single premium game inventory weapon skin artwork, compact wooden hunting crossbow with steel limbs and taut string, three quarter profile. ELITE finish: polished gunmetal steel, tasteful brass inlays, immaculate dark ebony grip or stock, exquisite realistic craftsmanship. Gothic Western 1890s horror craftsmanship. Physically plausible silhouette and metal construction. Entire one weapon visible with generous 12 percent empty margin on ALL sides, horizontal side profile pointing right except crossbow three quarter profile. Isolated on uniform near-black charcoal studio backdrop #10191b, no floor props, no hands, no scenery, no frame, no text, no labels, no watermark, no collage or duplicate weapons. Detailed realistic material rendering, crisp silhouette, soft warm rim light and gentle cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-cbbdf277-88d8-474b-9c06-34b8e59b8662.png",
+    "sha256": "be621e610441640a72933fbdac0d3a040bd8f1b0499fe01af980580c5ddb1fac"
+  },
+  {
+    "id": "crossbow_bone_ritual",
+    "target": "assets/weapons/skins/crossbow_bone_ritual.png",
+    "prompt": "Single premium game inventory weapon skin artwork: compact wooden hunting crossbow with steel limbs and taut string, three quarter profile. MASTER / LEGENDARY finish: fine gold engraved occult filigree, carved antique bone grip accents, blackened steel, restrained cursed ritual markings, expensive understated elegance, no glowing parts. Gothic Western 1890s horror craftsmanship. Entire ONE weapon visible with generous empty margin on all sides. Horizontal side profile, crossbow three quarter. Isolated on uniform near-black charcoal #10191b studio background. No props, no hands, no scenery, no frame, no text, no logo, no collage. Physically plausible construction, exquisite realistic material details, crisp silhouette, warm rim light and soft cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-54d6f133-1b1a-429c-98d7-e3419effe07f.png",
+    "sha256": "b49c7c3f64217cf4a275c67d6748809ea9e666ecb12044dab1f4eafc8986f0d8"
+  },
+  {
+    "id": "knife_bayou_wrap",
+    "target": "assets/weapons/skins/knife_bayou_wrap.png",
+    "prompt": "Single premium game inventory weapon skin artwork: single sturdy hunter bowie knife, broad steel blade and simple crossguard. BAYOU HUNTER finish: weathered dark walnut, practical dark brown leather wrapping, restrained etched steel, faint oxidation and field wear. Gothic Western 1890s horror craftsmanship. Entire ONE weapon visible with generous empty margin on all sides. Horizontal side profile, crossbow three quarter. Isolated on uniform near-black charcoal #10191b studio background. No props, no hands, no scenery, no frame, no text, no logo, no collage. Physically plausible construction, exquisite realistic material details, crisp silhouette, warm rim light and soft cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-77f6d6e3-0038-4fbe-89ec-858b68e1d052.png",
+    "sha256": "0793abb9c67de240f029ef2159aa50623760796dba72ee328a15c7334bde7a65"
+  },
+  {
+    "id": "knife_elite_brass",
+    "target": "assets/weapons/skins/knife_elite_brass.png",
+    "prompt": "Single premium game inventory weapon skin artwork: single sturdy hunter bowie knife, broad steel blade and simple crossguard. ELITE finish: polished gunmetal steel, tasteful brass inlays, immaculate dark ebony grip or stock, exquisite realistic craftsmanship. Gothic Western 1890s horror craftsmanship. Entire ONE weapon visible with generous empty margin on all sides. Horizontal side profile, crossbow three quarter. Isolated on uniform near-black charcoal #10191b studio background. No props, no hands, no scenery, no frame, no text, no logo, no collage. Physically plausible construction, exquisite realistic material details, crisp silhouette, warm rim light and soft cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-600f1f28-d6a7-4ba6-9e57-efea5c2c450b.png",
+    "sha256": "969a4b77cb5acfb0929e597f4cea5f8523bcb6aa931a3db50189f4501c415a7e"
+  },
+  {
+    "id": "knife_bone_ritual",
+    "target": "assets/weapons/skins/knife_bone_ritual.png",
+    "prompt": "Single premium game inventory weapon skin artwork: single sturdy hunter bowie knife, broad steel blade and simple crossguard. MASTER / LEGENDARY finish: fine gold engraved occult filigree, carved antique bone grip accents, blackened steel, restrained cursed ritual markings, expensive understated elegance, no glowing parts. Gothic Western 1890s horror craftsmanship. Entire ONE weapon visible with generous empty margin on all sides. Horizontal side profile, crossbow three quarter. Isolated on uniform near-black charcoal #10191b studio background. No props, no hands, no scenery, no frame, no text, no logo, no collage. Physically plausible construction, exquisite realistic material details, crisp silhouette, warm rim light and soft cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-b628e8bf-93af-46d0-9a00-ae1025f93861.png",
+    "sha256": "198fe03fd626a3487a3f143feac50eea174708791f7a679ee51f48302b0c2e80"
+  },
+  {
+    "id": "axe_bayou_wrap",
+    "target": "assets/weapons/skins/axe_bayou_wrap.png",
+    "prompt": "Single premium game inventory weapon skin artwork: single small one-handed throwing hatchet, steel axe head and short wooden haft. BAYOU HUNTER finish: weathered dark walnut, practical dark brown leather wrapping, restrained etched steel, faint oxidation and field wear. Gothic Western 1890s horror craftsmanship. Entire ONE weapon visible with generous empty margin on all sides. Horizontal side profile, crossbow three quarter. Isolated on uniform near-black charcoal #10191b studio background. No props, no hands, no scenery, no frame, no text, no logo, no collage. Physically plausible construction, exquisite realistic material details, crisp silhouette, warm rim light and soft cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-bd9f8bc8-070f-4a81-b50d-1d510af25660.png",
+    "sha256": "c699ebdc43bd6e2f8956f2babc5fb5bbae6b2e61201bf2b5946edbaef09c5ed5"
+  },
+  {
+    "id": "axe_elite_brass",
+    "target": "assets/weapons/skins/axe_elite_brass.png",
+    "prompt": "Single premium game inventory weapon skin artwork: single small one-handed throwing hatchet, steel axe head and short wooden haft. ELITE finish: polished gunmetal steel, tasteful brass inlays, immaculate dark ebony grip or stock, exquisite realistic craftsmanship. Gothic Western 1890s horror craftsmanship. Entire ONE weapon visible with generous empty margin on all sides. Horizontal side profile, crossbow three quarter. Isolated on uniform near-black charcoal #10191b studio background. No props, no hands, no scenery, no frame, no text, no logo, no collage. Physically plausible construction, exquisite realistic material details, crisp silhouette, warm rim light and soft cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-3b157762-13ed-4e2f-96b5-5e912a140015.png",
+    "sha256": "9575180d2514a5aa202c3b828e191546b0ee7f6409af6bd08df5fceef8592f6b"
+  },
+  {
+    "id": "axe_bone_ritual",
+    "target": "assets/weapons/skins/axe_bone_ritual.png",
+    "prompt": "Single premium game inventory weapon skin artwork: single small one-handed throwing hatchet, steel axe head and short wooden haft. MASTER / LEGENDARY finish: fine gold engraved occult filigree, carved antique bone grip accents, blackened steel, restrained cursed ritual markings, expensive understated elegance, no glowing parts. Gothic Western 1890s horror craftsmanship. Entire ONE weapon visible with generous empty margin on all sides. Horizontal side profile, crossbow three quarter. Isolated on uniform near-black charcoal #10191b studio background. No props, no hands, no scenery, no frame, no text, no logo, no collage. Physically plausible construction, exquisite realistic material details, crisp silhouette, warm rim light and soft cool fill. Landscape 1536x1024.",
+    "generator": "built-in image_gen",
+    "generatedFile": "exec-875aa768-9401-4dff-8c56-21bf39f44ae0.png",
+    "sha256": "493908a45c5045ee455d70c6cc1a0e54293e05f6a1b26578e5b708682a2d833d"
+  }
+]

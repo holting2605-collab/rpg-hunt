@@ -1,0 +1,710 @@
+[
+  {
+    "path": "assets/bg_bayou.jpg",
+    "bytes": 297218,
+    "sha256": "39c33be7743cc590f093da9a9ebb2abf2f4f564d2291189e8d1e69b35edb6fc5",
+    "literalReference": false
+  },
+  {
+    "path": "assets/boss_3.jpg",
+    "bytes": 96061,
+    "sha256": "bc11a6040be37a45ca257f5221a25e1975efd408d53acfa8c618dbcd2bb0624c",
+    "literalReference": true
+  },
+  {
+    "path": "assets/hunter_0.jpg",
+    "bytes": 96424,
+    "sha256": "77f3392f7ec3dcd19ee0288b9312909d2fdce9a76e1aead70a437eabb9bbed83",
+    "literalReference": true
+  },
+  {
+    "path": "assets/hunter_1.jpg",
+    "bytes": 94460,
+    "sha256": "e2bd570e506a7bc3f120006bc9839e4f97090dbed26cdfad3e7750fdb11d8d67",
+    "literalReference": true
+  },
+  {
+    "path": "assets/hunter_2.jpg",
+    "bytes": 100426,
+    "sha256": "bad92be0a294d272dd15c46902e085d508183307ec9f954a9e6aa626c3123336",
+    "literalReference": true
+  },
+  {
+    "path": "assets/hunter_3.jpg",
+    "bytes": 97353,
+    "sha256": "ede51870889f91abc10f24bcaf06c81e1cd852c6a218106f9680b4eaf8cd4cfe",
+    "literalReference": true
+  },
+  {
+    "path": "assets/menu/codex.jpg",
+    "bytes": 24539,
+    "sha256": "2679252704ed6b36a5346ac9a6bb548b14ae91657363f308e61d374f2d7951c4",
+    "literalReference": false
+  },
+  {
+    "path": "assets/menu/gear.jpg",
+    "bytes": 21265,
+    "sha256": "e3bc5deb491766cbcdbf78fc3b7aa1eb1e405b94505021f86ba7554dbc59f4a9",
+    "literalReference": false
+  },
+  {
+    "path": "assets/menu/hunters.jpg",
+    "bytes": 21168,
+    "sha256": "63864eb5293b15ed0f05ff235cf28a73f0fcc4e382a6e87f841c221b325ebdae",
+    "literalReference": false
+  },
+  {
+    "path": "assets/menu/mission.jpg",
+    "bytes": 23193,
+    "sha256": "a2662bb0340b1fd082b827b8fffa46f38f19c908ad07dd224b92d55311cde302",
+    "literalReference": false
+  },
+  {
+    "path": "assets/menu/missionteam.jpg",
+    "bytes": 20442,
+    "sha256": "0bfe2edb5384a703df86b7e73cf6487ba60285a6f5f87d888874bd445ebb7258",
+    "literalReference": false
+  },
+  {
+    "path": "assets/menu/recruit.jpg",
+    "bytes": 22053,
+    "sha256": "fe23da683129098cb77e94f0f88260ecb9900b03fc5b7061abffdd06b3748817",
+    "literalReference": false
+  },
+  {
+    "path": "assets/menu/roster.jpg",
+    "bytes": 21519,
+    "sha256": "2dc49a7cde795a9a3a43e388b8f417b2e1c8f9b1881429566b6e00e084efa6ab",
+    "literalReference": false
+  },
+  {
+    "path": "assets/menu_preview.jpg",
+    "bytes": 16739,
+    "sha256": "decc80ca591a6d89afbbe9ab10359600c723453433042588db27664e33227d83",
+    "literalReference": false
+  },
+  {
+    "path": "assets/monster_0.jpg",
+    "bytes": 107397,
+    "sha256": "e419880cd64861e11f99fdbc12b2f7a97cda3cb368c3c235fc542db9da45f10e",
+    "literalReference": true
+  },
+  {
+    "path": "assets/monster_1.jpg",
+    "bytes": 102226,
+    "sha256": "f4884ee7228af276d943f0b253293bb22039314c8e3ab2be877148bddede05f2",
+    "literalReference": true
+  },
+  {
+    "path": "assets/pistol_2.jpg",
+    "bytes": 93603,
+    "sha256": "99b3d3bbdba60bd5a2ebfa5fe8a3dd3a047c907f875f4c8bfcd3d615ebcf46d7",
+    "literalReference": true
+  },
+  {
+    "path": "assets/rifle_2.jpg",
+    "bytes": 96731,
+    "sha256": "a57038fe99e25a2ca396ba448cd6e71799dd9037b38808bc089ff9108df6760e",
+    "literalReference": true
+  },
+  {
+    "path": "assets/shotgun_2.jpg",
+    "bytes": 96794,
+    "sha256": "d6fb19ab8d9b67f1b14c1176560cb49b81fdce6828932e39439ab035399fb4d9",
+    "literalReference": true
+  },
+  {
+    "path": "assets/ui/menu/menu_arsenal.png",
+    "bytes": 2337582,
+    "sha256": "4a1c901ee4b66882099faeca3efd7f9a093b489e2376be9d7e25981f2660ab33",
+    "literalReference": false
+  },
+  {
+    "path": "assets/ui/menu/menu_codex.png",
+    "bytes": 2584160,
+    "sha256": "cd4c9de400b180eee99346a7accc073a1adc94d3a0effa9248848cc9e83b8e84",
+    "literalReference": true
+  },
+  {
+    "path": "assets/ui/menu/menu_gear.png",
+    "bytes": 2485895,
+    "sha256": "a8efe227718e74f3f17b5607e85886f6eeb39572730e9ae73084bbee63dab8b3",
+    "literalReference": true
+  },
+  {
+    "path": "assets/ui/menu/menu_hunters.png",
+    "bytes": 2407005,
+    "sha256": "e6c1347766222a66b39c02274ee308d8fbb878c7066af9b8da87495b2c58b018",
+    "literalReference": true
+  },
+  {
+    "path": "assets/ui/menu/menu_mission.png",
+    "bytes": 2433615,
+    "sha256": "8d6ebba475234d2bc381279772176742e8b29e1ce777a22ab57eb91e01cfade6",
+    "literalReference": true
+  },
+  {
+    "path": "assets/ui/menu/menu_recruitment.png",
+    "bytes": 2282574,
+    "sha256": "f647083c37147aaf701d95bb6adedf0fa414e0103db9286fbe6390fcd80e13eb",
+    "literalReference": false
+  },
+  {
+    "path": "assets/ui/menu/menu_settings.png",
+    "bytes": 2308528,
+    "sha256": "618f3d521ce16588f7ee324c023a9e6c18747cebf16884aaa7f5fcb20d9d61c9",
+    "literalReference": true
+  },
+  {
+    "path": "assets/ui/menu/menu_shop.png",
+    "bytes": 2122025,
+    "sha256": "61fb2b7b8b3c6a1c678250d9055f6b98dc7d253c38a103e232456ffb3210880c",
+    "literalReference": false
+  },
+  {
+    "path": "assets/ui/menu/menu_stash.png",
+    "bytes": 2235507,
+    "sha256": "1c972edf4e4e31d4690aac7dff103ee9758586dab3cba17b77ad8fe683bf5a35",
+    "literalReference": false
+  },
+  {
+    "path": "assets/ui/menu/menu_stats.png",
+    "bytes": 2415654,
+    "sha256": "2fa10f345402ee467d46a72d36f14fcacfd9d57286f7cc28918a784e44d44acb",
+    "literalReference": false
+  },
+  {
+    "path": "assets/ui/menu/menu_traits.png",
+    "bytes": 2396703,
+    "sha256": "4c4c72366b208b929b942dfc2468a25d893c6c1a34b9284049057885a5c71b90",
+    "literalReference": false
+  },
+  {
+    "path": "assets/v3/bosses/boss_0.jpg",
+    "bytes": 219684,
+    "sha256": "f7a99f774ff0958da6a85649127ef9674c03179b06c1c2ab6d2126136197910f",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/bosses/boss_1.jpg",
+    "bytes": 191885,
+    "sha256": "7cf2811d68273d89103ae69b1c4a8a4bbfa01a4bdd6aef55cf97583797289658",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/bosses/boss_2.jpg",
+    "bytes": 198628,
+    "sha256": "d9e6040e5be5f513558cb82241df54726fef67963a8754a89952ac24568ca46f",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/bosses/boss_3.jpg",
+    "bytes": 221360,
+    "sha256": "b7437e19bb5801f1ae1b8b45c3fda95ff74eb82769bf00fe24848c47850af4cc",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/bosses/boss_4.jpg",
+    "bytes": 197569,
+    "sha256": "7ccf8caaf41da6f2e3060f27802b81a7ee2826441c1aacede035415a169e6f7e",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/bosses/boss_5.jpg",
+    "bytes": 223532,
+    "sha256": "70e5231879fb8db7807cd2a22d2c192e76cb20a1866022a023dfb4e97cd944de",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/environments/aschengrube.jpg",
+    "bytes": 153510,
+    "sha256": "e2ce7d355eef9e65b616b0a646467c904b963dffcb8b0811dd2d9db26388276d",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/environments/blackwater_railyard.jpg",
+    "bytes": 154753,
+    "sha256": "8b6893f680e77b01823bd48b9726b61074189369727f7c1f96bc5f2144df65bf",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/environments/kapelle_von_saint_vale.jpg",
+    "bytes": 151006,
+    "sha256": "cf1bf79444427f68dfdb23794c8df741775d64c27f1ce7bbb8d2428751136dc0",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/environments/knochenfriedhof.jpg",
+    "bytes": 151141,
+    "sha256": "2b3bb8222a517fd2734b40fc833bd6d92fe1da75912e4a209c64b07b2cece7a6",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/environments/morrow_compound.jpg",
+    "bytes": 155551,
+    "sha256": "bc165880d3d73c5ca04b4f37262b6aa4367fb9ce18b6ba0b32def7288cfd0ff8",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/environments/nebelmoor.jpg",
+    "bytes": 146239,
+    "sha256": "59cf7a40548580787dd06b6f2f692223776e21ec1b066a1e43960847cedc9848",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/environments/sumpf_der_glocken.jpg",
+    "bytes": 157297,
+    "sha256": "44abad1d21fc1dd457fea8e3370799b48109ef824c6078d751cf4fe88cbdd918",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/environments/verlassene_farm.jpg",
+    "bytes": 156317,
+    "sha256": "5f509d1abb81f6152c575517de6e99d4328d98d1c45cd32d65dfa46746587d8b",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/extras/extra_0.jpg",
+    "bytes": 99449,
+    "sha256": "0c141c65028b6497537c5ba329812d7ff3a2c1bdd4c8d10a98f983ca9dd7d111",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/extras/extra_1.jpg",
+    "bytes": 101204,
+    "sha256": "ed69d7f76e7e32ce2050f54adf7eb8d26b63cd25199e2ae3140ca71058914843",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/extras/extra_2.jpg",
+    "bytes": 94161,
+    "sha256": "fe76a2ba80bcfc81b96c2933e16c13e6e30d36f1ed578f0d2e66d631847312c6",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/extras/extra_3.jpg",
+    "bytes": 97027,
+    "sha256": "969ab2456e82bb64507c5481d0069a6ce48029792d27c41647374612c5688531",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/extras/extra_4.jpg",
+    "bytes": 89480,
+    "sha256": "04f56e304eb9b421c533839f17187e9c3afefd0549d980539b74972187573214",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/extras/extra_5.jpg",
+    "bytes": 94412,
+    "sha256": "3da24d54d1b4043be31fde7bd243198dbb33cef5668296d11860d88fa32e8023",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/hunters/hunter_0.jpg",
+    "bytes": 201585,
+    "sha256": "65c5b4544d430240f2518718f1f4ee51a8a71986fc8de9081be08cc60301d026",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/hunters/hunter_1.jpg",
+    "bytes": 201299,
+    "sha256": "777f4a7771233e1dbf6e19f6262d4b4081bd2b8ff4a934405a923153776acbd1",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/hunters/hunter_2.jpg",
+    "bytes": 201479,
+    "sha256": "355276df99d8b3fcef5cb3614e8246ad5c1c6bbc6676d29a3265c0ef04c9ccc9",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/hunters/hunter_3.jpg",
+    "bytes": 200411,
+    "sha256": "3c77c6ba61bc7ebd1bae84398d393aad4e97165486df358996fdfdc1856a4a06",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/hunters/hunter_4.jpg",
+    "bytes": 202051,
+    "sha256": "13fd12b1189fd6fd461ffc9930a7581dd9113978e0aee8d8ef9a38b8e4aff70a",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/hunters/hunter_5.jpg",
+    "bytes": 205608,
+    "sha256": "f491e86f08887ed472313d5ee6b0e47eaaa5871a65902805499bc0b18aaefdbe",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/hunters/hunter_6.jpg",
+    "bytes": 209000,
+    "sha256": "bae3451f92600f7bcb71a818bc89f31f9379e2ead5dd6980ed0816580c5e28ce",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/hunters/hunter_7.jpg",
+    "bytes": 211777,
+    "sha256": "049ea104f5c45acbac8d136935de8b061d45eb497f728adc0f753f60d67fb761",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/monsters/monster_0.jpg",
+    "bytes": 194640,
+    "sha256": "cda03ed87f8e9af9265f0c7658137a5ca4659a85707dff3e826f09abe249f26c",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/monsters/monster_1.jpg",
+    "bytes": 205949,
+    "sha256": "245d156aea3da92773a07df79407d66397dbc5fe6293e32743504d2de595ccaa",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/monsters/monster_2.jpg",
+    "bytes": 217020,
+    "sha256": "6a543ea23b69a162571062defa8d90423622d6313614720fe195cf69a291b1e0",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/monsters/monster_3.jpg",
+    "bytes": 202721,
+    "sha256": "4ba2e09029ffe9860a23fdfd3c46cedf8fd503584e2affd3b6e676f1efe72f3d",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/monsters/monster_4.jpg",
+    "bytes": 194973,
+    "sha256": "b66ce03e61a0f5cc22e64a7be00f866dd8b7a8ce6d7f219108340741df8bc42f",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/monsters/monster_5.jpg",
+    "bytes": 218896,
+    "sha256": "e8856d0ab5d5e14b54af99c16226ee73a923111962978861a1c98093add8734d",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/monsters/monster_6.jpg",
+    "bytes": 224549,
+    "sha256": "9520800307301cb1d8e67b1c510281edf9defa2fc9b44523c987679a8469365a",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/monsters/monster_7.jpg",
+    "bytes": 218568,
+    "sha256": "60e783f3573699e8af2570c063608fd21e039ccc5028fb7fd27ab3061fa12a65",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/ui/menu_codex.jpg",
+    "bytes": 110767,
+    "sha256": "3485877e6271892f26d5f1d8903816ed0ade00891a8048ffc65bf3c8403401df",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/ui/menu_gear.jpg",
+    "bytes": 99291,
+    "sha256": "d259812cb1e3c943656467910e039e71d9a49cfb5106bee01e6a4a4def785249",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/ui/menu_hunters.jpg",
+    "bytes": 102204,
+    "sha256": "852f0b502ab5a1ff1263382f1badf0adea22356ae3af7648b76bb9ba4b501beb",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/ui/menu_mission.jpg",
+    "bytes": 124564,
+    "sha256": "eaf13399a287dc94e150e4efe8e39396d2ab9bfcbc18e205db1c8ddf39209fc3",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/ui/menu_missionteam.jpg",
+    "bytes": 121671,
+    "sha256": "ba22a939ab5aa52a6e11b10e247cfa0349767090f5ca9bac57a899ef86e1b073",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/ui/menu_recruit.jpg",
+    "bytes": 105906,
+    "sha256": "6119d16b4235393ff4853176d399aa717045dc8d514f7d302b7aa724e9ae4976",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/ui/menu_roster.jpg",
+    "bytes": 104481,
+    "sha256": "b7a6d0bb3a05f0a9dc564bf14046c3ef2562147a79e88486b789bee6f15de3b6",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/ui/menu_settings.jpg",
+    "bytes": 119425,
+    "sha256": "dbc65695f09f1dc1fb83ca18c0aa71adf9edae9c7e82e112b62de218272bff7a",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/weapons/weapon_0.jpg",
+    "bytes": 95511,
+    "sha256": "678a577f5df87a5f7036b1b5f8b31e82eaafdd1babafe20654c7ad1cd3a3c37f",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/weapons/weapon_1.jpg",
+    "bytes": 98015,
+    "sha256": "c03bc89b3507d4ffde8ccd0ea9e444125a9ba104f479e311e09a20554b6aab9f",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/weapons/weapon_2.jpg",
+    "bytes": 98418,
+    "sha256": "c94f2aa7f2351832229126f6797fe80795704d99d1bb47568c554daa4f422166",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/weapons/weapon_3.jpg",
+    "bytes": 93859,
+    "sha256": "9d1fef9f532a9d0074b7adf3c84b803e0e6c3e293e4aade7198e1434ab53f369",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/weapons/weapon_4.jpg",
+    "bytes": 90293,
+    "sha256": "fbce5ab87560b206caeae4b2c44fb939c13b40e8792208762681fb18b94a353a",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/weapons/weapon_5.jpg",
+    "bytes": 88314,
+    "sha256": "4994969ab77f6108ffd5ce18c9b2908d84e826bcdb1c13a0ac52099bbe502a44",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/weapons/weapon_6.jpg",
+    "bytes": 94290,
+    "sha256": "81ac2d88f9ccacf2d62bd0d3ca6f4c485422c328950bc6caa85e4e71423b5a87",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v3/weapons/weapon_7.jpg",
+    "bytes": 99070,
+    "sha256": "b5cde7f1613396938ea42f0e55c602c0bddf1da09f5a4b89d1cc1bb13a92c46a",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v4/ui/extras_workbench.png",
+    "bytes": 2223381,
+    "sha256": "2203171eda78bbf11c319af5170a5ad6f098ac19dc8f009a45b4516f0af99386",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v4/ui/menu_haendler.png",
+    "bytes": 2081886,
+    "sha256": "f83dfa23152d5e0fe54bb80c1121216d1901b7ed91d5ef83a21ecb7196f73fe7",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v4/ui/merchant_stock.png",
+    "bytes": 2482495,
+    "sha256": "f8417ed4f71de6d0011db8fb0c0d3658e4af4039f1577b05b15bfa5a42374146",
+    "literalReference": true
+  },
+  {
+    "path": "assets/v4/ui/weapon_carousel.png",
+    "bytes": 2146917,
+    "sha256": "b6bd7ef5b994a9b35b4749f0ff2e37c30ba492706100e2d0d45291d65cd1951d",
+    "literalReference": true
+  },
+  {
+    "path": "assets/weapons/skins/axe_bayou_wrap.png",
+    "bytes": 1916587,
+    "sha256": "c699ebdc43bd6e2f8956f2babc5fb5bbae6b2e61201bf2b5946edbaef09c5ed5",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/axe_bone_ritual.png",
+    "bytes": 1735012,
+    "sha256": "493908a45c5045ee455d70c6cc1a0e54293e05f6a1b26578e5b708682a2d833d",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/axe_elite_brass.png",
+    "bytes": 1763346,
+    "sha256": "9575180d2514a5aa202c3b828e191546b0ee7f6409af6bd08df5fceef8592f6b",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/axe_standard_darkwood.png",
+    "bytes": 1535273,
+    "sha256": "65834904506c7f6120ccf41ed6951d8df6a8612c20455fc1b382f942394906a6",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/crossbow_bayou_wrap.png",
+    "bytes": 1855509,
+    "sha256": "67580a38cd533424085c3cb40e5daa0fb21ef9c0e601ec658da162ab3b2f485d",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/crossbow_bone_ritual.png",
+    "bytes": 1885811,
+    "sha256": "b49c7c3f64217cf4a275c67d6748809ea9e666ecb12044dab1f4eafc8986f0d8",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/crossbow_elite_brass.png",
+    "bytes": 1861521,
+    "sha256": "be621e610441640a72933fbdac0d3a040bd8f1b0499fe01af980580c5ddb1fac",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/crossbow_standard_darkwood.png",
+    "bytes": 1766177,
+    "sha256": "512c1f0d8db2476b17057b9b0234cfe1913637b4edbd63b0f497d839f319a1a5",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/knife_bayou_wrap.png",
+    "bytes": 1546186,
+    "sha256": "0793abb9c67de240f029ef2159aa50623760796dba72ee328a15c7334bde7a65",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/knife_bone_ritual.png",
+    "bytes": 1544859,
+    "sha256": "198fe03fd626a3487a3f143feac50eea174708791f7a679ee51f48302b0c2e80",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/knife_elite_brass.png",
+    "bytes": 1743789,
+    "sha256": "969a4b77cb5acfb0929e597f4cea5f8523bcb6aa931a3db50189f4501c415a7e",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/knife_standard_darkwood.png",
+    "bytes": 1570551,
+    "sha256": "e8b9dacf98f608dba2c4c26784b619a3e34677cb8795ee07e39faf6f663a2373",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/pistol_bayou_wrap.png",
+    "bytes": 1891281,
+    "sha256": "abc151e131dcc8d012ee05b5512644be8ad2cd7f5766a40e583cf3bbd7eab8cf",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/pistol_bone_ritual.png",
+    "bytes": 1938856,
+    "sha256": "ad66186cd0655711c9af2b0e2ed37b76863440a99c6784ee2bf78ee3aac62a8e",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/pistol_elite_brass.png",
+    "bytes": 1825848,
+    "sha256": "cec203cbd90c9fd7a5cec85255a2faf3f751241853a17a0424cf6d7231305902",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/pistol_standard_darkwood.png",
+    "bytes": 1600519,
+    "sha256": "083b22c0db8b36dac638c61fc62723ab731b27be3d131f892094182f1bbf6d17",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/revolver_bayou_wrap.png",
+    "bytes": 1686588,
+    "sha256": "90c3dd6138fda47ae74db8566a22a609f41704f3be69cc9e4d47d4cd12942091",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/revolver_bone_ritual.png",
+    "bytes": 1863725,
+    "sha256": "b06e882c284f3cc98bda202c4d8216497ca9a89a3634f13c0d451550bd3b576b",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/revolver_elite_brass.png",
+    "bytes": 1760816,
+    "sha256": "8df8aaf86bbd10cd565acc4114a6edc5e7438aaf2b10b9dbdc5a69356b78a63f",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/revolver_standard_darkwood.png",
+    "bytes": 1542768,
+    "sha256": "224ba4f6df365a655813207c4e487343c2e1225d1556eadb5867991b347c4180",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/rifle_bayou_wrap.png",
+    "bytes": 1665723,
+    "sha256": "ac82928b0168f9bae679c4b6dfc90eafa840be4360055ad912e734bba3ed76e5",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/rifle_bone_ritual.png",
+    "bytes": 1651800,
+    "sha256": "e8ed0641b68ddaa73623ecfd64e456793c05d9470b11d197a7b5385e411c0a2f",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/rifle_elite_brass.png",
+    "bytes": 1578410,
+    "sha256": "eeaf84d9dd7d1e73b1e9bdaca639e57a797d499bde0fba2cb1c02d0a6156c60b",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/rifle_standard_darkwood.png",
+    "bytes": 1220163,
+    "sha256": "4eda4e7a8111163a79b023def894b703c3eb59096f281be089b9499a1e9e6671",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/shotgun_bayou_wrap.png",
+    "bytes": 1734087,
+    "sha256": "344f965e5aa3472c5b36d0a1a0f072d86f1e6885d69e00f853f517c72bc57fef",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/shotgun_bone_ritual.png",
+    "bytes": 1668483,
+    "sha256": "f580106de51f08e7a3a79a58ac448eb2d2ce9dd6a6f57804bd86543974ea2ef5",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/shotgun_elite_brass.png",
+    "bytes": 1666832,
+    "sha256": "62b4c0220d7340cd8d96f6356ebc5b54c22230664a06c0b087dba64259c8f61c",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/shotgun_standard_darkwood.png",
+    "bytes": 1360601,
+    "sha256": "3956f83dab5ed5bc21932eb26c88ffb6a950c5deea657b84b1b98709da17f3de",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/sniper_bayou_wrap.png",
+    "bytes": 1678251,
+    "sha256": "a3fd7711bcf527534ecb784c2e67aa99ea451a7fe92697bf10d618f81f5a6226",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/sniper_bone_ritual.png",
+    "bytes": 1668240,
+    "sha256": "9a360e4835252d89dd453f2f4c3ef95532627cd7220786f1ab08148bcf8dddea",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/sniper_elite_brass.png",
+    "bytes": 1634835,
+    "sha256": "13da40207396b5c5c57f242b6ffae69975c2576f045f4c78f3b36c1fa5b74ae3",
+    "literalReference": false
+  },
+  {
+    "path": "assets/weapons/skins/sniper_standard_darkwood.png",
+    "bytes": 1524214,
+    "sha256": "449701b53a414b4f709496388f7ac0447ab774060ddf0d131bc3979731e255e1",
+    "literalReference": false
+  }
+]
